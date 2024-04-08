@@ -16,10 +16,8 @@ Example:
 ![This is the alt text for an image!](DocImages/exampleimage.png)
 
 ## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
 The player discovers the mechanics of the game one step at a time in various ways,
 the first thing they learn is how spikes damage you when they walk into them and the boxes heal you when the character recoils from the spike into the health pickup.
 This feedback loop of failure and success teaches the player throughout the first section of the game.
@@ -126,10 +124,16 @@ No additional words are necessary for this section (any words should only be wit
 ### 3.4.	Level Map – Section 3
 
 ## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
-
-
+Other than minor level design fixes such as where the last moving platform too low so that the player would be unable to jump to the key door in a test run which I fixed after the playtest. The level did go through a few changes before arriving at the final product.
+On my first rush I thought I just need to make a tutorial level so I had the gun pick up on section 2 and the staff pick up on section 3, the level was easy as I made it as a tutorial level only and it only took 2 mins to complete.
+After reviewing the assignment specification where it labeled the 3 distinct sections, I remodeled the level introducing all the mechanics in section 1 by remaking it while only reusing the spikes which the player faces initially. 
+While remaking Section 1, I came up with the idea of showing the player the keydoor when introducing them to the first key and showing a part of the level behind a wall when introducing them to passthrough platforms. 
+This encourages the player to explore and discover which helped me in this level design and the idea came to me through this process of iterative design.
+Reused the gun pick up section previously to make the new section 2 as it was a decent spike in difficulty and pacing from section 1(I made a new portion of the level to introduce the gun in section 1).
+And modeled a new portion of the level for section 3 which jumps in difficulty from section 2 and forces the player to dash to the end of the level which satisfied the assignment specification.
+If I had more time I would expand on section 2 and 3, introducing new challenges with more moving platforms for example and also add more verticality to the level. 
+Section 2 definitely needed a segment where the player would have to navigate from moving platform to moving platform while fighting chompers.
+Section 3 is mostly how I want it but if given more time I would add more sections to make the difficulty spike more smoothly for the player by adding more similar segments(Section 3) which increase in smaller increments of difficulty.
 
 
