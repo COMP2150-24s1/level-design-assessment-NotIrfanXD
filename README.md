@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YyUO0xtt)
 # COMP2150  - Level Design Document
-### Name: [your name]
-### Student number: [your student number] 
+### Name: Irfan Hassan
+### Student number: 47816260
 
 This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
 
@@ -37,27 +37,56 @@ Storyboards can be combined when multiple mechanics are introduced within a sing
 
 You should restructure the headings below to match the order they appear in your level.
 
-### 2.1. Acid
+### 2.1. Health Pickups
+When the player spawns in, they immediately spot a health pickup to their right and a wall to their left. 
+The health pick up is placed right behind a spike so if the player walks into the spike he recoils back into the health pick up which restores his health. 
+This teaches the player the purpose of the health pickup and how it only restores health if u are not on maximum health.
 
-### 2.2. Checkpoints
+### 2.2. Spikes
+The spike is placed right in front of the first health pickup.
+Should a player run into it they quickly realize its purpose as it depletes their hp.
+After the player overcomes the first obstacle/spike by jumping over it, 
+there are 3 more spikes adjacent to each other to teach the player how far they are able to jump by holding down the jump button.
 
-### 2.3. Chompers
+### 2.3. Weapon Pickup (Staff)
+After the spikes, The player can pick up a staff from the remains of a skeleton which can be used to do a melee attack.
+This mechanic is used to defeat the chomper which is right below the passthrough platform placed beside the skeleton which the player will progress to afterwards.
 
-### 2.4. Health Pickups
+### 2.4. Passthrough Platforms
+Beside the skeleton the player will face a wall with the first passthrough platform behind it which the player must learn to drop down by moving down and jumping to progress.
+After defeating the chomper in the small undergroundarea below the passthrough platform he can move past the wall above by moving underground 
+and then progress by jumping up through the next passthrough platform placed on the other side.
 
-### 2.5. Keys
+### 2.5. Chompers
+In the underground area below the passthrough platforms the player meets the first chomper which charges at the player on sight and the player loses health when coming in contact with it.
+The player must overcome this challenge by learning to use the staff to attack the chomper to be able to progress as avoiding it in the underground area is not possible.
 
-### 2.6. Moving Platforms
+### 2.6. Weapon Pickup (Gun)
+After the passthrough platforms the player can pick up the gun which is used for ranged attacks.
+This mechanic is used to defeat the spitter which is encountered after the acid pit beside the skeleton which the player will progress to afterwards.
 
-### 2.7. Passthrough Platforms
+### 2.7. Checkpoints
+A checkpoint is placed before the acid pit which the player will run into.
+In case the player falls into the acid pit, they will respawn at that checkpoint.
 
-### 2.8. Spikes
+### 2.8. Acid
+An acid pit which covers more distance than the player can jump placed after the first checkpoint and gun pickup.
+Players falling into it respawns at the checkpoint with 1 less health.
+There is a moving platform which the acid pit forces the player to use to progress as they can't jump past the pit.
 
-### 2.9. Spitters
+### 2.9. Moving Platforms
+The first moving platform placed above the acid pit after the first checkpoint and gun pickup.
+The platform moves when it first becomes visible, meaning the player is guaranteed to know it exists and how it sort of works as soon as he sees the acid pit.
+The player is forced to use the platform to move past the acid pit.
 
-### 2.10. Weapon Pickup (Gun)
+### 2.10. Spitters
+Placed out of melee reach of the player in an elevated area after the acid pit.
+The player will have to jump and shoot it to kill it.
+//(Or the player can avoid it entirely which will just make the game harder but I cant think of any other way to force the player to use the gun except using text in game. 
+The switch works but its optional and I dont want to figure out how to make it work in unity right now as I have little time ;-;)//
 
-### 2.11. Weapon Pickup (Staff)
+### 2.11. Keys
+Placed underneath the spitter, the keydoor is visible underground by the camera which lights up a bit when the player picks up the key, hinting the player to collect more to open the door.
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
