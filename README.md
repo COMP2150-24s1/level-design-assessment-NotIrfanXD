@@ -20,15 +20,39 @@ Outline and justify how your level design facilitates the core player experience
 
 ### 1.1. Discovery
 What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+The player discovers the mechanics of the game one step at a time in various ways,
+the first thing they learn is how spikes damage you when they walk into them and the boxes heal you when the character recoils from the spike into the health pickup.
+This feedback loop of failure and success teaches the player throughout the first section of the game.
+Other examples would include the chomper,spitter, acid pits and checkpoints.
+Obstacles like the wall blocking the way also teach the player how to learn, an example would be how the transparent floors can be jumped through when blocked by the wall, 
+the first chomper also acts as an obstacle forcing the player to learn how to attack it as they cant avoid it in the cramped space.
+The game also encourages the player to discover more when it draws the players attention with the door glowing underground when the key is picked up, 
+or when they see space on the other side of the wall when they encounter the first passthrough platform, as well as how the gun works when faced with the spitter out of reach.
+This sort of level design makes the player learn game mechanics from the level itself.
 
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+The first section of the game is not so intense and encourages the player to learn the mechanics of the game, rewarding the player each step as they learn something new.(new items like the staff and gun can be considered rewarding)
+From Section 2 however the difficulty increases slightly where the player will be forced to go at a slightly faster pace to be able to keep up with the moving platforms above an acid pit while avoiding the spitters attacking.
+additionally the player can jump and shoot the spitters in section 2, when they are past the acid pit they can relax before dropping down to section 3.
+Section 3 forces the player to go even faster as there are more spitters constantly throwing acid, they also have less space to jump over the spikes forcing the player to be more precise with the movement,
+the player is forced to melee the chompers while moving fast due to the constricted space and the threat of acid being thrown at them(basically not be able to crouch and shoot the chompers).
+The part with the moving platforms and acid still forces the player to go faster as the platforms only move a small distance and they must quickly and skillfully dispatch the chompers and spitters to progress to the door.
+(note the cramped space makes it difficult to avoid the enemies, the chomper also forces u to kill it on the platform above the acid as it will knock u into the acid if u try getting on that platform without killing it.)
+Reaching the door and getting out of the really intense section 3 feels really relieving, rewarding and satisfying as the player.
 
 ### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+Spikes, Acid pits, chompers and spitters are the main challenges in this level. Navigating on the moving platforms and finding keys can also be seen as another challenge.
+The first section makes the players face the challenges seperately one by one letting the players get used to how to play this game.
+The 2nd Section combines multiple challenges like the acid, moving platform and spitters to increase the challenge slightly for the player.
+The jump from 2nd to 3rd section has the chompers and spikes in the cramped underground area where the player is once again forced to overcome multiple challenges at a faster pace with precise movement, all the while there is a threat from spitters below.
+The last half of the 3rd section has all the challenges at a really fast pace, with moving platforms moving a tiny distance, spitters throwing acids constantly and chompers with a spike in a cramped space. 
+The gradual increase in difficulty keeps the player from being overwhelmed and the big challenge in the end like that should feel satisfying as the player to overcome.
 
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+Being able to see space behind the wall on the first passthrough platform encounter entices the player to try and get there.
+Being able to see the door light up underground when picking up the first key gets the player to want to find out how to get there and figure out more about the door.
+If the player skips the 2nd key and goes to the door after picking up the 3rd one, the player will be able to see the 2nd key from where they are standing at the door, 
+this encourages them to backtrack and explore the part of the map they skipped to get the last key.
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
@@ -81,7 +105,7 @@ The player is forced to use the platform to move past the acid pit.
 
 ### 2.10. Spitters
 Placed out of melee reach of the player in an elevated area after the acid pit.
-The player will have to jump and shoot it to kill it.
+The player will have to jump to their max height and shoot it to kill it.
 //(Or the player can avoid it entirely which will just make the game harder but I cant think of any other way to force the player to use the gun except using text in game. 
 The switch works but its optional and I dont want to figure out how to make it work in unity right now as I have little time ;-;)//
 
@@ -106,24 +130,6 @@ Reflect on how iterative design helped to improve your level. Additional prototy
 
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
 
-## Generative AI Use Acknowledgement
 
-Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools, and add more as necessary.
-
-
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
-
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
-
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
-
-### Tool Used: Example
-**Nature of Use** Example Text
-
-**Evidence Attached?** Example Text
-
-**Additional Notes:** Example Text
 
 
