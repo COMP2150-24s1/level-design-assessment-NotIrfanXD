@@ -9,6 +9,13 @@ Your document must include images. To insert an image into your documentation, p
 
 ```
 ![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
+[StoryBoard1](DocImages/StoryBoard1.png)
+[StoryBoard2](DocImages/StoryBoard2.png)
+[StoryBoard3](DocImages/StoryBoard3.png)
+[StoryBoard4](DocImages/StoryBoard4.png)
+[MoleculeDiagram1](MoleculeDiagram1.png)
+[MoleculeDiagram2](MoleculeDiagram2.png)
+[MoleculeDiagram3](MoleculeDiagram3.png)
 ```
 
 Example:
@@ -58,6 +65,12 @@ A section on Core Gameplay, where storyboards are used to outline how you introd
 Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
 
 You should restructure the headings below to match the order they appear in your level.
+(Green Arrows Represent the pathing of the player)
+
+[StoryBoard1](DocImages/StoryBoard1.png)
+[StoryBoard2](DocImages/StoryBoard2.png)
+DocImages/StoryBoard1.png
+DocImages/StoryBoard2.png
 
 ### 2.1. Health Pickups
 When the player spawns in, they immediately spot a health pickup to their right and a wall to their left. 
@@ -69,6 +82,9 @@ The spike is placed right in front of the first health pickup.
 Should a player run into it they quickly realize its purpose as it depletes their hp.
 After the player overcomes the first obstacle/spike by jumping over it, 
 there are 3 more spikes adjacent to each other to teach the player how far they are able to jump by holding down the jump button.
+
+[StoryBoard3](DocImages/StoryBoard3.png)
+DocImages/StoryBoard3.png
 
 ### 2.3. Weapon Pickup (Staff)
 After the spikes, The player can pick up a staff from the remains of a skeleton which can be used to do a melee attack.
@@ -82,6 +98,9 @@ and then progress by jumping up through the next passthrough platform placed on 
 ### 2.5. Chompers
 In the underground area below the passthrough platforms the player meets the first chomper which charges at the player on sight and the player loses health when coming in contact with it.
 The player must overcome this challenge by learning to use the staff to attack the chomper to be able to progress as avoiding it in the underground area is not possible.
+
+[StoryBoard4](DocImages/StoryBoard4.png)
+DocImages/StoryBoard4.png
 
 ### 2.6. Weapon Pickup (Gun)
 After the passthrough platforms the player can pick up the gun which is used for ranged attacks.
@@ -118,10 +137,16 @@ No additional words are necessary for this section (any words should only be wit
 ### 3.1. Molecule Diagram
 
 ### 3.2. Level Map – Section 1
+[MoleculeDiagram1](MoleculeDiagram1.png)
+(MoleculeDiagram1.png)
 
 ### 3.3.	Level Map – Section 2
+[MoleculeDiagram2](MoleculeDiagram2.png)
+(MoleculeDiagram2.png)
 
 ### 3.4.	Level Map – Section 3
+[MoleculeDiagram3](MoleculeDiagram3.png)
+(MoleculeDiagram3.png)
 
 ## 4. Iterative Design (~400 words)
 
@@ -131,6 +156,8 @@ After reviewing the assignment specification where it labeled the 3 distinct sec
 While remaking Section 1, I came up with the idea of showing the player the keydoor when introducing them to the first key and showing a part of the level behind a wall when introducing them to passthrough platforms. 
 This encourages the player to explore and discover which helped me in this level design and the idea came to me through this process of iterative design.
 Reused the gun pick up section previously to make the new section 2 as it was a decent spike in difficulty and pacing from section 1(I made a new portion of the level to introduce the gun in section 1).
+This section that I reused for Section 2 initially had only 1 moving platform but if the player missed the opportunity to jump on it, it took forever to come back 
+so after a few playtests i ended up using 2 moving platforms so the platform came back faster and the player didn't have to wait too long.
 And modeled a new portion of the level for section 3 which jumps in difficulty from section 2 and forces the player to dash to the end of the level which satisfied the assignment specification.
 If I had more time I would expand on section 2 and 3, introducing new challenges with more moving platforms for example and also add more verticality to the level. 
 Section 2 definitely needed a segment where the player would have to navigate from moving platform to moving platform while fighting chompers.
